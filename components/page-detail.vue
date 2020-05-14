@@ -78,12 +78,12 @@
 		watch: {},
 		computed: {
 			listHeight() {
-				let h = '570px'
+				let h = '530px'
 				console.log(this.screenHeight)
 				if (this.screenHeight < 736) {
-					h = "420px"
+					h = "380px"
 				} else if (this.screenHeight >= 736 && this.screenHeight < 812) {
-					h = "470px"
+					h = "430px"
 				}
 				return h
 			}
@@ -151,7 +151,7 @@
 
 	.title {
 		line-height: 2;
-		font-size: 42rpx;
+		font-size: 48rpx;
 		color: #FFFFFF;
 	}
 
