@@ -628,7 +628,7 @@ module.exports = {
 			"subCtg": 303,
 			"name": "信息消费在银发主题培训班",
 			"time": "5月25日-5月26日",
-			"address": "待定",
+			"address": "",//待定
 			"company": "上海老年大学",
 			"show": false
 		}, {

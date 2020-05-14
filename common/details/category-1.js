@@ -20,34 +20,6 @@ module.exports = {
 		"company": "号百控股",
 		"show": false
 	}, {
-		"id": 101003,
-		"ctg": 1,
-		"subCtg": 101,
-		"name": "5G助力信息消费",
-		"time": "5月17日-6月17日",
-		"address": "上海电信、上海移动、上海联通",
-		"company": "上海电信、上海移动、上海联通",
-		"show": false
-	}, {
-		"id": 101004,
-		"ctg": 1,
-		"subCtg": 101,
-		"name": "KOO爱购",
-		"time": "5月17日-6月17日",
-		"address": "KOO爱花、KOO卡",
-		"company": "信也科技",
-		"show": false
-	}, {
-		"id": 101005,
-		"ctg": 1,
-		"subCtg": 101,
-		"name": "中国电信“消费扶贫券＋5G会员流量”免费送活动",
-		"time": "5月17日-12月31日",
-		"addressRich": true,
-		"address": "<p>暂定地址：<a href='http://5ggo.telefen.com' target='_blank'>5ggo.telefen.com</a></p><p>暂定渠道：电信营业厅APP5G专区、5G应用APP、天翼积分</p><p>微信公众号、31省微信公众号等</p>",
-		"company": "翼集分电子商务（上海）有限公司",
-		"show": false
-	}, {
 		"id": 101006,
 		"ctg": 1,
 		"subCtg": 101,
@@ -74,6 +46,34 @@ module.exports = {
 		"time": "5月17日",
 		"address": "腾飞大厦",
 		"company": "上海联通/上海联通南区分公司",
+		"show": false
+	}, {
+		"id": 101003,
+		"ctg": 1,
+		"subCtg": 101,
+		"name": "5G助力信息消费",
+		"time": "5月17日-6月17日",
+		"address": "上海电信、上海移动、上海联通",
+		"company": "上海电信、上海移动、上海联通",
+		"show": false
+	}, {
+		"id": 101004,
+		"ctg": 1,
+		"subCtg": 101,
+		"name": "KOO爱购",
+		"time": "5月17日-6月17日",
+		"address": "KOO爱花、KOO卡",
+		"company": "信也科技",
+		"show": false
+	}, {
+		"id": 101005,
+		"ctg": 1,
+		"subCtg": 101,
+		"name": "中国电信“消费扶贫券＋5G会员流量”免费送活动",
+		"time": "5月17日-12月31日",
+		"addressRich": true,
+		"address": "<p>暂定地址：<a href='http://5ggo.telefen.com' target='_blank'>5ggo.telefen.com</a></p><p>暂定渠道：电信营业厅APP5G专区、5G应用APP、天翼积分微信公众号、31省微信公众号等</p>",
+		"company": "翼集分电子商务（上海）有限公司",
 		"show": false
 	}, {
 		"id": 102001,
