@@ -25,7 +25,7 @@
 						<view :class="['detail-title']" @click="getDetail(dk,dtl.id)">{{dtl.name}}</view>
 						<view class="detail-more" v-show="dtl.show">
 							<view class="dtl-row">活动时间：{{dtl.time}}</view>
-							<view class="dtl-row">活动地点：
+							<view class="dtl-row">活动地点/渠道：
 								<block v-if="dtl.addressRich">
 									<rich-text class="row-rich" :nodes="dtl.address"></rich-text>
 								</block>
@@ -135,7 +135,7 @@
 
 	.title {
 		line-height: 2;
-		font-size: 38rpx;
+		font-size: 42rpx;
 		color: #FFFFFF;
 	}
 
