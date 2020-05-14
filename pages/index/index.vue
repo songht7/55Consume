@@ -66,7 +66,7 @@
 		},
 		onShow() {
 			var that = this;
-			console.log("location.：", location.href)
+			//console.log("location.：", location.href)
 			let isWeixin = !!/micromessenger/i.test(navigator.userAgent.toLowerCase());
 			that.isWeixin = isWeixin;
 			if (isWeixin) {
