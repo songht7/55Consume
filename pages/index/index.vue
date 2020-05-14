@@ -95,10 +95,11 @@
 			},
 			wxShare() {
 				var that = this;
-				var getTicketUrl = location.origin + "/#/";
-				if (that.isIOS()) {
-					getTicketUrl = location.origin + "/";
-				}
+				var getTicketUrl = location.origin;
+				// var getTicketUrl = location.origin + "/#/";
+				// if (that.isIOS()) {
+				// 	getTicketUrl = location.origin + "/";
+				// }
 				var api = 'http://api_test.meetji.com/v2/ApiWeChat-getJsApiTicket.htm?url=' + getTicketUrl;
 				console.log("wxShare-api:", api);
 				uni.request({

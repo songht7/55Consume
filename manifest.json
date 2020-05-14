@@ -49,6 +49,9 @@
     },
     "h5" : {
         "title" : "55Consume",
-        "domain" : "consume.bdmartech.com"
+        "domain" : "consume.bdmartech.com",
+        "router" : {
+            "mode" : "history"
+        }
     }
 }
