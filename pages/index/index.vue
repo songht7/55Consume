@@ -55,7 +55,6 @@
 				systemInfo: {},
 				screenHeight: 667,
 				isWeixin: false
-
 			}
 		},
 		components: {
