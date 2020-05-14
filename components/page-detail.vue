@@ -1,10 +1,10 @@
 <template>
 	<view class="page-detail">
 		<view class="page-header">
-			<view class="title animate__animated animate__bounceInLeft">
+			<view :class="['title',titleAnt]">
 				上海信息消费节
 			</view>
-			<view class="title title-sub animate__animated animate__bounceInRight">
+			<view :class="['title','title-sub',subTitleAnt]">
 				精彩活动
 			</view>
 		</view>
@@ -21,7 +21,7 @@
 			</view>
 			<scroll-view scroll-y="true" class="detail-list-box" :style="{'height':listHeight}">
 				<block v-for="(dtl,dk) in list" :key="dk">
-					<view :class="['detail-block', 'detail-list','animate__animated','animate__fadeIn',dtl.show?'detail-show':'']">
+					<view :class="['detail-block', 'detail-list','animate__animated','animate__fadeIn',animate__fadeOut,dtl.show?'detail-show':'']">
 						<view :class="['detail-title']" @click="getDetail(dk,dtl.id)">{{dtl.name}}</view>
 						<view class="detail-more" v-show="dtl.show">
 							<view class="dtl-row">活动时间：{{dtl.time}}</view>
@@ -69,7 +69,10 @@
 				currCtgIndex: 0,
 				currCtg: 1, //当前分类 id
 				currSubCtg: 101, //当前二级分类 id
-				list: [] //页面列表
+				list: [], //页面列表
+				animate__fadeOut: '',
+				titleAnt: [],
+				subTitleAnt: [],
 			};
 		},
 		watch: {},
@@ -100,11 +103,24 @@
 				that.currSubCtg = id;
 				that.getList();
 			},
+			setTtitleAnt() {
+				this.titleAnt = ['animate__animated', 'animate__bounceInLeft'];
+				this.subTitleAnt = ['animate__animated', 'animate__bounceInRight'];
+			},
+			setTtitleNoAnt() {
+				this.titleAnt = [];
+				this.subTitleAnt = [];
+			},
 			getList() {
 				var that = this;
+				//that.list = [];
+				that.animate__fadeOut = 'animate__fadeOut';
 				let _list = that.details.list.filter((obj, k) => obj.subCtg == that.currSubCtg);
 				console.log("getList:", _list.length)
-				that.list = _list;
+				setTimeout(() => {
+					that.animate__fadeOut = '';
+					that.list = _list;
+				}, 200)
 			},
 			getDetail(index, id) {
 				console.log("getDetail:", index, id)

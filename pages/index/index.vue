@@ -87,7 +87,10 @@
 				console.log(e.detail.current)
 				if (e.detail.current == this.pageDetailIndex) {
 					this.disableTouch = this.canLoop;
+					this.$refs.pageDetail.setTtitleAnt();
 					this.$refs.pageDetail.getList();
+				}else{
+					this.$refs.pageDetail.setTtitleNoAnt();
 				}
 			},
 			wxShare() {
