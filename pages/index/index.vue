@@ -67,7 +67,7 @@
 		},
 		onShow() {
 			var that = this;
-			//console.log("location.origin：", location.origin)
+			console.log("location.：", location.href)
 			let isWeixin = !!/micromessenger/i.test(navigator.userAgent.toLowerCase());
 			that.isWeixin = isWeixin;
 			if (isWeixin) {
@@ -95,7 +95,7 @@
 			},
 			wxShare() {
 				var that = this;
-				var getTicketUrl = location.origin;
+				var getTicketUrl = encodeURIComponent(location.href);
 				// var getTicketUrl = location.origin + "/#/";
 				// if (that.isIOS()) {
 				// 	getTicketUrl = location.origin + "/";
@@ -156,7 +156,7 @@
 				var wxSet = {
 					title: "上海信息消费节",
 					desc: "2020 上海信息消费节开幕式 暨数字新生代云峰汇",
-					link: 'http://consume.bdmartech.com/#/',
+					link: 'http://consume.bdmartech.com/',
 					imgUrl: 'http://consume.bdmartech.com/static/page-index.jpg',
 					success: function() {}
 				};
