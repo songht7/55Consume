@@ -15,7 +15,7 @@
 				<view class="pages pages-4 "></view>
 			</swiper-item>
 			<swiper-item>
-				<page-detail ref="pageDetail" :details="details"></page-detail>
+				<page-detail ref="pageDetail" :details="details" :screenHeight="screenHeight"></page-detail>
 			</swiper-item>
 		</swiper>
 	</view>
@@ -36,14 +36,29 @@
 				current: 0,
 				pageDetailIndex: 4,
 				canLoop: false,
-				details: details
+				details: details,
+				systemInfo: {},
+				screenHeight: 667
+
 			}
 		},
 		components: {
 			pageDetail
 		},
 		onLoad() {
-			console.log(this.details);
+			//console.log(this.details);
+		},
+		onShow() {
+			var that = this;
+			uni.getSystemInfo({
+				success(res) {
+					that.systemInfo = res;
+					that.screenHeight = res.screenHeight;
+				},
+				complete() {
+					console.log("getSystemInfo:", that.screenHeight)
+				}
+			});
 		},
 		methods: {
 			onSwiperChange(e) {

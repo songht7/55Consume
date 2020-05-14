@@ -16,7 +16,7 @@ module.exports = {
 		"name": "VR世界 抢鲜拥有",
 		"time": "5月中旬",
 		"addressRich": true,
-		"address": "电商渠道：<a href='http://tianyiyunvr.suning.com/' target='_blank'>http://tianyiyunvr.suning.com/</a>",
+		"address": "<p>电商售卖渠道：<a href='http://tianyiyunvr.suning.com/' target='_blank'>http://tianyiyunvr.suning.com/</a></p><p>直播售卖渠道 B站 5月17日18:30-19:30</p>",
 		"company": "号百控股",
 		"show": false
 	}, {

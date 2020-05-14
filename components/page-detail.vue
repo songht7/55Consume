@@ -19,11 +19,10 @@
 					<view :class="['sub-ctg-btn',currSubCtg==subCtg.id?'active':'']" @click="switchSubCtg(kk,subCtg.id)">{{subCtg.name}}</view>
 				</view>
 			</view>
-				<scroll-view scroll-y="true" class="detail-list-box">
+			<scroll-view scroll-y="true" class="detail-list-box" :style="{'height':listHeight}">
 				<block v-for="(dtl,dk) in list" :key="dk">
-					<view :class="['detail-block', 'detail-list','animate__animated','animate__fadeIn',dtl.show?'detail-show':'']"
-					 @click="getDetail(dk,dtl.id)">
-						<view :class="['detail-title']">{{dtl.name}}</view>
+					<view :class="['detail-block', 'detail-list','animate__animated','animate__fadeIn',dtl.show?'detail-show':'']">
+						<view :class="['detail-title']" @click="getDetail(dk,dtl.id)">{{dtl.name}}</view>
 						<view class="detail-more" v-show="dtl.show">
 							<view class="dtl-row">活动时间：{{dtl.time}}</view>
 							<view class="dtl-row">活动地点：
@@ -42,10 +41,11 @@
 									{{dtl.company}}
 								</block>
 							</view>
+							<view class="detail-close" @click="getDetail(dk,dtl.id)"></view>
 						</view>
 					</view>
 				</block>
-				</scroll-view>
+			</scroll-view>
 		</view>
 	</view>
 </template>
@@ -53,9 +53,15 @@
 <script>
 	export default {
 		props: {
-			details: Object,
-			default () {
-				return {}
+			details: {
+				type: Object,
+				default: function(e) {
+					return {}
+				}
+			},
+			screenHeight: {
+				type: Number,
+				default: 667
 			}
 		},
 		data() {
@@ -67,7 +73,18 @@
 			};
 		},
 		watch: {},
-		computed: {},
+		computed: {
+			listHeight() {
+				let h = '570px'
+				console.log(this.screenHeight)
+				if (this.screenHeight < 736) {
+					h = "420px"
+				} else if (this.screenHeight >= 736 && this.screenHeight < 812) {
+					h = "470px"
+				}
+				return h
+			}
+		},
 		methods: {
 			switchCtg(index = 0, id = 1) {
 				// console.log("switchCtg:", index, id)
@@ -216,7 +233,7 @@
 	}
 
 	.detail-more {
-		padding: 10rpx 0 20rpx;
+		padding: 10rpx 0 0;
 		display: flex;
 		align-items: flex-start;
 		align-content: center;
@@ -224,20 +241,24 @@
 		flex-direction: column;
 	}
 
-	.detail-more::after {
+	.detail-close {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.detail-close::after {
 		content: "—";
 		color: #384f6e;
-		width: 100%;
-		text-align: center;
-		position: relative;
-		bottom: -10rpx;
 	}
 
 	.dtl-row {
 		line-height: 1.4;
 		font-size: 28rpx;
 	}
-	.detail-list-box{
+
+	.detail-list-box {
 		height: 1000rpx;
 	}
 </style>
