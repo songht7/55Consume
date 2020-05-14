@@ -78,12 +78,12 @@
 		watch: {},
 		computed: {
 			listHeight() {
-				let h = '520px'
+				let h = '500px'
 				console.log(this.screenHeight)
 				if (this.screenHeight < 736) {
-					h = "360px"
+					h = "300px"
 				} else if (this.screenHeight >= 736 && this.screenHeight < 812) {
-					h = "420px"
+					h = "400px"
 				}
 				return h
 			}
