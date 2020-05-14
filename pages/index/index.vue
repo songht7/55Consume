@@ -63,15 +63,16 @@
 		},
 		onLoad() {
 			var that = this;
+			//console.log(this.details);
+		},
+		onShow() {
+			var that = this;
+			//console.log("location.origin：", location.origin)
 			let isWeixin = !!/micromessenger/i.test(navigator.userAgent.toLowerCase());
 			that.isWeixin = isWeixin;
 			if (isWeixin) {
 				that.wxShare();
 			}
-			//console.log(this.details);
-		},
-		onShow() {
-			var that = this;
 			uni.getSystemInfo({
 				success(res) {
 					that.systemInfo = res;
@@ -84,12 +85,11 @@
 		},
 		methods: {
 			onSwiperChange(e) {
-				console.log(e.detail.current)
 				if (e.detail.current == this.pageDetailIndex) {
 					this.disableTouch = this.canLoop;
 					this.$refs.pageDetail.setTtitleAnt();
 					this.$refs.pageDetail.getList();
-				}else{
+				} else {
 					this.$refs.pageDetail.setTtitleNoAnt();
 				}
 			},
