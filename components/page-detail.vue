@@ -21,7 +21,7 @@
 			</view>
 			<scroll-view scroll-y="true" class="detail-list-box" :style="{'height':listHeight}">
 				<block v-for="(dtl,dk) in list" v-if="!dtl.delete" :key="dk">
-					<view :class="['detail-block', 'detail-list','animate__animated','animate__fadeIn',animate__fadeOut,dtl.show?'detail-show':'']">
+					<view :class="['detail-block', 'detail-list','animate__animated','animate__fadeInDown',animate__fadeOut,dtl.show?'detail-show':'']">
 						<view :class="['detail-title']" @click="getDetail(dk,dtl.id)">{{dtl.name}}</view>
 						<view :class="['detail-more']" v-show="dtl.show">
 							<view :class="['dtl-row animate_icon animate__animated',dtl.show?'animate__flipInX':'animate__flipOutX']" v-if="dtl.address">活动地点/渠道：
