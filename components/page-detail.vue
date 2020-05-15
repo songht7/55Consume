@@ -27,7 +27,8 @@
 							<view class="dtl-row" v-if="dtl.time">活动时间：{{dtl.time}}</view>
 							<view class="dtl-row" v-if="dtl.address">活动地点/渠道：
 								<block v-if="dtl.addressRich">
-									<rich-text class="row-rich" :nodes="dtl.address"></rich-text>
+									<u-parse :content="dtl.address" @navigate="navigate"></u-parse>
+									<!-- <rich-text class="row-rich" type='text' :nodes="dtl.address"></rich-text> -->
 								</block>
 								<block v-else>
 									{{dtl.address}}
@@ -51,6 +52,7 @@
 </template>
 
 <script>
+	import uParse from "@/components/feng-parse/parse.vue"
 	export default {
 		props: {
 			details: {
@@ -74,6 +76,9 @@
 				titleAnt: [],
 				subTitleAnt: [],
 			};
+		},
+		components: {
+			uParse
 		},
 		watch: {},
 		computed: {
@@ -127,6 +132,10 @@
 				// console.log(this.list)
 				var that = this;
 				that.list[index]['show'] = !that.list[index]['show'];
+			},
+			navigate(e) {
+				//console.log(e)
+				parent.location.href = e
 			}
 		}
 	}
