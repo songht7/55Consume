@@ -24,6 +24,14 @@
 					<view :class="['detail-block', 'detail-list','animate__animated','animate__fadeInDown',animate__fadeOut,dtl.show?'detail-show':'']">
 						<view :class="['detail-title']" @click="getDetail(dk,dtl.id)">{{dtl.name}}</view>
 						<view :class="['detail-more']" v-show="dtl.show">
+							<view :class="['dtl-row animate_icon animate__animated',dtl.show?'animate__flipInX':'animate__flipOutX']" v-if="dtl.time">活动时间：
+								<block v-if="dtl.timeRich">
+									<rich-text class="row-rich" :nodes="dtl.time"></rich-text>
+								</block>
+								<block v-else>
+									{{dtl.time}}
+								</block>
+							</view>
 							<view :class="['dtl-row animate_icon animate__animated',dtl.show?'animate__flipInX':'animate__flipOutX']" v-if="dtl.address">活动地点/渠道：
 								<block v-if="dtl.addressRich">
 									<u-parse :content="dtl.address" @navigate="navigate"></u-parse>
