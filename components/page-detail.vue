@@ -23,9 +23,8 @@
 				<block v-for="(dtl,dk) in list" v-if="!dtl.delete" :key="dk">
 					<view :class="['detail-block', 'detail-list','animate__animated','animate__fadeIn',animate__fadeOut,dtl.show?'detail-show':'']">
 						<view :class="['detail-title']" @click="getDetail(dk,dtl.id)">{{dtl.name}}</view>
-						<view class="detail-more" v-show="dtl.show">
-							<view class="dtl-row" v-if="dtl.time">活动时间：{{dtl.time}}</view>
-							<view class="dtl-row" v-if="dtl.address">活动地点/渠道：
+						<view :class="['detail-more']" v-show="dtl.show">
+							<view :class="['dtl-row animate_icon animate__animated',dtl.show?'animate__flipInX':'animate__flipOutX']" v-if="dtl.address">活动地点/渠道：
 								<block v-if="dtl.addressRich">
 									<u-parse :content="dtl.address" @navigate="navigate"></u-parse>
 									<!-- <rich-text class="row-rich" type='text' :nodes="dtl.address"></rich-text> -->
@@ -34,7 +33,7 @@
 									{{dtl.address}}
 								</block>
 							</view>
-							<view class="dtl-row" v-if="dtl.company">主办单位：
+							<view :class="['dtl-row animate_icon animate__animated',dtl.show?'animate__flipInX':'animate__flipOutX']" v-if="dtl.company">主办单位：
 								<block v-if="dtl.companyRich">
 									<rich-text class="row-rich" :nodes="dtl.company"></rich-text>
 								</block>
@@ -260,6 +259,7 @@
 	}
 
 	.detail-more {
+		color: #444;
 		padding: 10rpx 0 0;
 		display: flex;
 		align-items: flex-start;
