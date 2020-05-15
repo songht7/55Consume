@@ -532,6 +532,15 @@ module.exports = {
 		}
 		/*302 id max 302037*/
 		, {
+			"id": 303019,
+			"ctg": 3,
+			"subCtg": 303,
+			"name": "“517主题活动",
+			"time": "线上：5月17日 线下：5月-6月",
+			"address": "静安寺、上海展览中心、联通实体营业厅及线上",
+			"company": "上海电信、上海移动、上海联通",
+			"show": false
+		}, {
 			"id": 303013,
 			"ctg": 3,
 			"subCtg": 303,
@@ -632,6 +641,34 @@ module.exports = {
 			"company": "达达集团",
 			"show": false
 		}, {
+			"id": 303020,
+			"ctg": 3,
+			"subCtg": 303,
+			"name": "视觉无人店及智能柜体展示",
+			"time": "5月17-6月17日",
+			"address": "", //待定
+			"company": "上海霖罕信息科技有限公司",
+			"show": false
+		}, {
+			"id": 303021,
+			"ctg": 3,
+			"subCtg": 303,
+			"name": "AI人工智能终端落地拓展",
+			"time": "5月17日-6月30日",
+			"address": "学校、工厂、社区、办公楼、长宁区中高档小区,一兆韦德、威尔士、中体倍力、美天芙蓉江路菜场",
+			"company": "深兰科技",
+			"show": false
+		}, {
+			"id": 303022,
+			"ctg": 3,
+			"subCtg": 303,
+			"name": "Vidlab互联网协作平台",
+			"time": "5月17日-6月30日",
+			"addressRich": true,
+			"address": "<p>“Vidlab互联网协作平台”网址：<a href='https://www.vidlab.cn/' target='_blank'>https://www.vidlab.cn/</a></p>",
+			"company": "上海领豪信息技术有限公司",
+			"show": false
+		}, {
 			"id": 303008,
 			"ctg": 3,
 			"subCtg": 303,
@@ -659,6 +696,33 @@ module.exports = {
 			"company": "上海市信息服务业行业协会",
 			"show": false
 		}, {
+			"id": 303023,
+			"ctg": 3,
+			"subCtg": 303,
+			"name": "上海信息消费节商圈活动—云拿AI视觉无人店",
+			"time": "6月",
+			"address": "长宁区",
+			"company": "上海云拿智能科技有限公司",
+			"show": false
+		}, {
+			"id": 303024,
+			"ctg": 3,
+			"subCtg": 303,
+			"name": "无介质浮空投影黑科技快闪体验店",
+			"time": "6月",
+			"address": "长宁区龙之梦",
+			"company": "上海扩展现实产业研究院",
+			"show": false
+		}, {
+			"id": 303025,
+			"ctg": 3,
+			"subCtg": 303,
+			"name": "长宁区科普集市之信息消费产品展示",
+			"time": "6月-7月",
+			"address": "", //待定
+			"company": "长宁区科委、长宁区科协",
+			"show": false
+		}, {
 			"id": 303011,
 			"ctg": 3,
 			"subCtg": 303,
@@ -680,12 +744,12 @@ module.exports = {
 			"id": 303012,
 			"ctg": 3,
 			"subCtg": 303,
-			"name": "虚拟商圈：打造永不落幕的线上秋叶原",
-			"time": "6月8日-6月26日",
-			"address": "哔哩哔哩",
-			"company": "哔哩哔哩",
+			"name": "购物节特别直播活动",
+			"time": "6月16日",
+			"address": "上海市虹口区临平路38号-2",
+			"company": "上海联通",
 			"show": false
 		}
 	],
-	/*303 id max 303017*/
+	/*303 id max 303025*/
 }
