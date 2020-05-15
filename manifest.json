@@ -1,5 +1,5 @@
 {
-    "name" : "55Consume",
+    "name" : "上海信息消费节",
     "appid" : "__UNI__B390101",
     "description" : "",
     "versionName" : "1.0.0",
@@ -48,7 +48,7 @@
         }
     },
     "h5" : {
-        "title" : "55Consume",
+        "title" : "上海信息消费节",
         "domain" : "consume.bdmartech.com",
         "router" : {
             "mode" : "history"

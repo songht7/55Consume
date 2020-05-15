@@ -117,7 +117,7 @@ module.exports = {
 			"name": "乐高®教育STEAM系列套装及FLL活动套装超值大放送",
 			"time": "5月17日",
 			"addressRich": true,
-			"address": "<p>宜山路700号C2幢5楼  购买链接:/p><p><a href='http://annaloveydw.mikecrm.com/m9qv28E' target='_blank'>http://annaloveydw.mikecrm.com/m9qv28E</a></p>",
+			"address": "<p>宜山路700号C2幢5楼  购买链接：</p><p><a href='http://annaloveydw.mikecrm.com/m9qv28E' target='_blank'>http://annaloveydw.mikecrm.com/m9qv28E</a></p>",
 			"company": "上海乐承教育科技有限公司",
 			"show": false
 		}, {
@@ -127,7 +127,7 @@ module.exports = {
 			"name": "聪明米奇，让你喜欢的英语学习",
 			"time": "5月17日-6月17日",
 			"addressRich": true,
-			"address": "<p>“聪明米奇”app、“聪明米奇”官网：/p><p><a href='http://www.smartmicky.com' target='_blank'>http://www.smartmicky.com</a></p>",
+			"address": "<p>“聪明米奇”app、“聪明米奇”官网：</p><p><a href='http://www.smartmicky.com' target='_blank'>http://www.smartmicky.com</a></p>",
 			"company": "上海千逊科技有限公司",
 			"show": false
 		}, {
