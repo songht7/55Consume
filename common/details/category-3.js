@@ -476,6 +476,15 @@ module.exports = {
 			"company": "叮咚买菜",
 			"show": false
 		}, {
+			"id": 302037,
+			"ctg": 3,
+			"subCtg": 302,
+			"name": "多力 天地合補-滴鸡精饮品优惠活动",
+			"time": "5月17日-6月17日",
+			"address": "微信公众号/官方商城",
+			"company": "佳格投资（中国）有限公司（多力-天地合補）",
+			"show": false
+		}, {
 			"id": 302032,
 			"ctg": 3,
 			"subCtg": 302,
@@ -521,7 +530,7 @@ module.exports = {
 			"company": "携程",
 			"show": false
 		}
-		/*302 id max 302036*/
+		/*302 id max 302037*/
 		, {
 			"id": 303013,
 			"ctg": 3,
@@ -628,7 +637,7 @@ module.exports = {
 			"subCtg": 303,
 			"name": "信息消费在银发主题培训班",
 			"time": "5月25日-5月26日",
-			"address": "",//待定
+			"address": "", //待定
 			"company": "上海老年大学",
 			"show": false
 		}, {

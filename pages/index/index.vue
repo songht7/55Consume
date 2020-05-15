@@ -11,6 +11,7 @@
 			<swiper-item>
 				<view class="pages pages-2 ">
 					<view class="p-icons p2i1 animate_icon animate__animated animate__pulse animate__slow"></view>
+					<view class="p-icons p2i2 animate_icon animate__animated animate__pulse animate__slow"></view>
 				</view>
 			</swiper-item>
 			<swiper-item>
@@ -258,6 +259,8 @@
 
 	.pages-2 {
 		background-image: url(../../static/page-2.png);
+		background-position: 50% 30%;
+		background-size: 90% auto;
 	}
 
 	.pages-3 {
@@ -267,6 +270,7 @@
 
 	.pages-4 {
 		background-image: url(../../static/page-4.png);
+		background-position: 50% 40%;
 	}
 
 	.animate_icon {
@@ -299,11 +303,19 @@
 	}
 
 	.p2i1 {
-		width: 250rpx;
+		width: 200rpx;
 		height: 250rpx;
 		background-image: url(../../static/p2-1.png);
-		left: -10px;
-		top: 50%;
+		left: -15px;
+		top: 45%;
+	}
+
+	.p2i2 {
+		width: 300rpx;
+		height: 300rpx;
+		background-image: url(../../static/p2-2.png);
+		right: 0;
+		top: 60%;
 	}
 
 	.p3i1 {
@@ -311,7 +323,7 @@
 		height: 100rpx;
 		background-image: url(../../static/p3-1.png);
 		left: 10%;
-		top: 15%;
+		top: 10%;
 	}
 
 	.p3i2 {
@@ -327,6 +339,14 @@
 		height: 150rpx;
 		background-image: url(../../static/p3-3.png);
 		right: 0;
+		top: 32%;
+	}
+
+	.pages-4 .p1i1 {
+		top: 80%;
+	}
+
+	.pages-4 .p3i3 {
 		top: 35%;
 	}
 </style>
