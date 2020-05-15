@@ -84,12 +84,14 @@
 		computed: {
 			listHeight() {
 				let h = '550px'
+				// console.log(this.screenHeight)
+				// if (this.screenHeight < 736) {
+				// 	h = "400px"
+				// } else if (this.screenHeight >= 736 && this.screenHeight < 812) {
+				// 	h = "450px"
+				// }
 				console.log(this.screenHeight)
-				if (this.screenHeight < 736) {
-					h = "400px"
-				} else if (this.screenHeight >= 736 && this.screenHeight < 812) {
-					h = "450px"
-				}
+				h = this.screenHeight / 1.8 + 'px';
 				return h
 			}
 		},

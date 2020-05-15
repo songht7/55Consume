@@ -322,8 +322,8 @@
 		width: 100rpx;
 		height: 100rpx;
 		background-image: url(../../static/p3-1.png);
-		left: 10%;
-		top: 10%;
+		left: 5%;
+		top: 5%;
 	}
 
 	.p3i2 {
@@ -331,7 +331,7 @@
 		height: 80rpx;
 		background-image: url(../../static/p3-2.png);
 		right: 10%;
-		top: 25%;
+		top: 15%;
 	}
 
 	.p3i3 {
@@ -339,7 +339,7 @@
 		height: 150rpx;
 		background-image: url(../../static/p3-3.png);
 		right: 0;
-		top: 32%;
+		top: 25%;
 	}
 
 	.pages-4 .p1i1 {
