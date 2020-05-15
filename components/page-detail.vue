@@ -291,6 +291,7 @@
 	.dtl-row {
 		line-height: 1.4;
 		font-size: 28rpx;
+		padding-bottom: 5rpx;
 	}
 
 	.detail-list-box {
