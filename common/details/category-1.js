@@ -183,6 +183,7 @@ module.exports = {
 			"id": 103008,
 			"ctg": 1,
 			"subCtg": 103,
+			"delete": true,
 			"name": "和家直播节",
 			"time": "5月10日-6月30日",
 			"address": "和家直播平台、和家线上智慧门店",

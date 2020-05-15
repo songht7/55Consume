@@ -506,6 +506,7 @@ module.exports = {
 			"id": 302034,
 			"ctg": 3,
 			"subCtg": 302,
+			"delete": true,
 			"name": "骑游生活指南",
 			"time": "5月30日-6月30日",
 			"address": "线上结合线下：徐汇线下场地+哈啰出行app弹窗页面",
