@@ -96,7 +96,7 @@ module.exports = {
 			"id": 201011,
 			"ctg": 2,
 			"subCtg": 201,
-			"name": "美团活动",
+			"name": "美团新一代门店升级",
 			"time": "5月18日",
 			"address": "美团点评",
 			"company": "美团点评",
@@ -122,7 +122,7 @@ module.exports = {
 			"show": false
 		}
 		/*201 max 201013*/
-		, {
+		, { 
 			"id": 2020001,
 			"ctg": 2,
 			"subCtg": 202,
@@ -144,10 +144,10 @@ module.exports = {
 			"id": 2020003,
 			"ctg": 2,
 			"subCtg": 202,
-			"name": "上海消费节",
+			"name": "上海信息消费节",
 			"time": "5月17日",
 			"address": "线上	",
-			"company": "徐汇区中心医院",
+			"company": "徐汇区中心医院贯众互联网医院",
 			"show": false
 		}, {
 			"id": 2020004,
