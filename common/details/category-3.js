@@ -649,7 +649,7 @@ module.exports = {
 			"subCtg": 303,
 			"name": "视觉无人店及智能柜体展示",
 			"time": "5月17-6月17日",
-			"address": "待定",
+			"address": "", //待定
 			"company": "上海霖罕信息科技有限公司",
 			"show": false
 		}, {
@@ -677,7 +677,7 @@ module.exports = {
 			"subCtg": 303,
 			"name": "信息消费在银发主题培训班",
 			"time": "5月25日-5月26日",
-			"address": "待定",
+			"address": "", //待定
 			"company": "上海老年大学",
 			"show": false
 		}, {
@@ -722,7 +722,7 @@ module.exports = {
 			"subCtg": 303,
 			"name": "长宁区科普集市之信息消费产品展示",
 			"time": "6月-7月",
-			"address": "待定", 
+			"address": "", //待定
 			"company": "长宁区科委、长宁区科协",
 			"show": false
 		}, {
