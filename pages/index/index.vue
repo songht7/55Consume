@@ -155,7 +155,7 @@
 				})
 				var wxSet = {
 					title: "上海信息消费节",
-					desc: "2020 上海信息消费节开幕式 暨数字新生代云峰汇",
+					desc: "活动于2020年5月17日-6月17日举办，以“数字赋能消费新时代”为主题",
 					link: 'http://consume.bdmartech.com/',
 					imgUrl: 'http://consume.bdmartech.com/static/page-index.jpg',
 					success: function() {}
