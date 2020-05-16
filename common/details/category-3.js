@@ -107,7 +107,7 @@ module.exports = {
 			"name": "上海消费节·昂立好课节",
 			"time": "5月17日",
 			"addressRich": true,
-			"address": "<p>线下：上海昂立旗下各学习中心。 </p><p>线上：官网、官微及合作媒体等</p>",
+			"address": "<p>线上：官网、官微及合作媒体等</p><p>线下：上海昂立旗下各学习中心</p>",
 			"company": "上海新南洋昂立教育股份有限公司/昂立教育集团及其旗下所有上海子公司",
 			"show": false
 		}, {
@@ -117,7 +117,7 @@ module.exports = {
 			"name": "乐高®教育STEAM系列套装及FLL活动套装超值大放送",
 			"time": "5月17日",
 			"addressRich": true,
-			"address": "<p>宜山路700号C2幢5楼  购买链接：</p><p><a href='http://annaloveydw.mikecrm.com/m9qv28E' target='_blank'>http://annaloveydw.mikecrm.com/m9qv28E</a></p>",
+			"address": "<p>宜山路700号C2幢5楼</p><p>购买链接：<a href='http://annaloveydw.mikecrm.com/m9qv28E' target='_blank'>http://annaloveydw.mikecrm.com/m9qv28E</a></p>",
 			"company": "上海乐承教育科技有限公司",
 			"show": false
 		}, {
@@ -218,7 +218,8 @@ module.exports = {
 			"ctg": 3,
 			"subCtg": 302,
 			"name": "399元梦世界超级会员卡（半年卡）",
-			"time": "4月23日-5月23日（会员卡销售时间）4月30日-6月30日（会员卡激活时间）",
+			"timeRich": true,
+			"time": "<p>4月23日-5月23日（会员卡销售时间）</p><p>4月30日-6月30日（会员卡激活时间）</p>",
 			"address": "元祖梦世界微信公众号/小程序",
 			"company": "上海梦世界商业管理有限公司（元祖梦世界）",
 			"show": false
@@ -227,7 +228,7 @@ module.exports = {
 			"ctg": 3,
 			"subCtg": 302,
 			"name": "支付宝、口碑、美团点评折扣",
-			"time": "4月26日-5月30日 5月4日-5月8日",
+			"time": "4月26日-5月30日、5月4日-5月8日",
 			"address": "支付宝或口碑、美团点评",
 			"company": "津味实业（上海）有限公司（85度C）",
 			"show": false
@@ -245,7 +246,8 @@ module.exports = {
 			"ctg": 3,
 			"subCtg": 302,
 			"name": "麦可将亲子项目园内手作课程体验项目6-8折火锅套餐+体验",
-			"time": "4月30日-6月17日（亲子、手作体验）4月30日-5月9日（火锅套餐+体验）",
+			"timeRich": true,
+			"time": "<p>4月30日-6月17日（亲子、手作体验）</p><p>4月30日-5月9日（火锅套餐+体验）<p>",
 			"address": "麦可将文创园区、纸箱王餐厅",
 			"company": "上海麦可将工业有限公司（麦可将文创）",
 			"show": false
@@ -400,7 +402,7 @@ module.exports = {
 			"subCtg": 302,
 			"name": "约‘惠’初夏——大额五折券，限量抢",
 			"time": "5月17日-6月6日",
-			"address": "天猫（儿童户外服饰） 京东（成人户外服饰）",
+			"address": "天猫（儿童户外服饰） 、京东（成人户外服饰）",
 			"company": "上海圣伯纳户外用品有限公司",
 			"show": false
 		}, {
@@ -536,8 +538,8 @@ module.exports = {
 			"id": 303019,
 			"ctg": 3,
 			"subCtg": 303,
-			"name": "“517主题活动",
-			"time": "线上：5月17日 线下：5月-6月",
+			"name": "517主题活动",
+			"time": "5月17日（线上）、5月-6月（线下）",
 			"address": "静安寺、上海展览中心、联通实体营业厅及线上",
 			"company": "上海电信、上海移动、上海联通",
 			"show": false
@@ -611,7 +613,7 @@ module.exports = {
 			"subCtg": 303,
 			"name": "俺来也校园云餐厅云闪付活动",
 			"time": "5月17日-6月17日",
-			"address": "上海建桥学院、上海电机学院、华东理工大学奉贤校区和徐汇校区、上海师范大学奉贤校区和徐汇校区、上海工程技术大学、上海应用技术大学、海视觉艺术学院、上海交大海科院",
+			"address": "上海建桥学院、上海电机学院、华东理工大学奉贤校区和徐汇校区、上海师范大学奉贤校区和徐汇校区、上海工程技术大学、上海应用技术大学、上海视觉艺术学院、上海交大海科院",
 			"company": "中国银联上海分公司",
 			"show": false
 		}, {
@@ -647,7 +649,7 @@ module.exports = {
 			"subCtg": 303,
 			"name": "视觉无人店及智能柜体展示",
 			"time": "5月17-6月17日",
-			"address": "", //待定
+			"address": "待定",
 			"company": "上海霖罕信息科技有限公司",
 			"show": false
 		}, {
@@ -656,7 +658,7 @@ module.exports = {
 			"subCtg": 303,
 			"name": "AI人工智能终端落地拓展",
 			"time": "5月17日-6月30日",
-			"address": "学校、工厂、社区、办公楼、长宁区中高档小区,一兆韦德、威尔士、中体倍力、美天芙蓉江路菜场",
+			"address": "学校、工厂、社区、办公楼、长宁区中高档小区、一兆韦德、威尔士、中体倍力、美天芙蓉江路菜场",
 			"company": "深兰科技",
 			"show": false
 		}, {
@@ -675,7 +677,7 @@ module.exports = {
 			"subCtg": 303,
 			"name": "信息消费在银发主题培训班",
 			"time": "5月25日-5月26日",
-			"address": "", //待定
+			"address": "待定",
 			"company": "上海老年大学",
 			"show": false
 		}, {
@@ -693,7 +695,7 @@ module.exports = {
 			"subCtg": 303,
 			"name": "数字赋能商圈新基建",
 			"time": "6月",
-			"address": "黄埔、杨浦、徐汇、浦东、宝山等重点商圈",
+			"address": "黄浦、杨浦、徐汇、浦东、宝山等重点商圈",
 			"company": "上海市信息服务业行业协会",
 			"show": false
 		}, {
@@ -720,7 +722,7 @@ module.exports = {
 			"subCtg": 303,
 			"name": "长宁区科普集市之信息消费产品展示",
 			"time": "6月-7月",
-			"address": "", //待定
+			"address": "待定", 
 			"company": "长宁区科委、长宁区科协",
 			"show": false
 		}, {

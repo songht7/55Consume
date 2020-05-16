@@ -16,7 +16,7 @@ module.exports = {
 			"name": "VR世界 抢鲜拥有",
 			"time": "5月中旬",
 			"addressRich": true,
-			"address": "<p>电商售卖渠道：<a href=\"http://tianyiyunvr.suning.com/\" target=\"_blank\">http://tianyiyunvr.suning.com/</a></p><p>直播售卖渠道 B站 5月17日18:30-19:30</p>",
+			"address": "<p>电商售卖渠道：<a href=\"http://tianyiyunvr.suning.com//\" target=\"_blank\">http://tianyiyunvr.suning.com/</a></p><p>直播售卖渠道：B站（5月17日18:30-19:30）</p>",
 			"company": "号百控股",
 			"show": false
 		}, {
@@ -91,7 +91,7 @@ module.exports = {
 			"ctg": 1,
 			"subCtg": 102,
 			"name": "燃“擎”岁月 幸福车生活",
-			"time": "5月16-5月17日",
+			"time": "5月16日-5月17日",
 			"address": "浦东长泰广场",
 			"company": "上海市东昌汽车投资有限公司",
 			"show": false
@@ -111,12 +111,30 @@ module.exports = {
 			"name": "2020“拼汽车”嘉年华",
 			"time": "5月23日-5月30日",
 			"address": "拼多多",
-			"companyRich": true,
-			"company": "<p>主办单位：拼多多、途虎养车、上汽集团</p><p>参与单位：上海市信息服务业行业协会</p>",
+			// "companyRich": true,
+			"company": "拼多多、途虎养车、上汽集团",
 			"show": false
 		}
 		/*102 max 102004*/
 		, {
+			"id": 103012,
+			"ctg": 1,
+			"subCtg": 103,
+			"name": "全筑股份智能家居线上55大促",
+			"time": "5月1日-6月30日",
+			"address": "拼多多",
+			"company": "上海优由智能科技有限公司",
+			"show": false
+		}, {
+			"id": 103013,
+			"ctg": 1,
+			"subCtg": 103,
+			"name": "全筑股份智能家居线上55大促",
+			"time": "5月1日-6月30日",
+			"address": "拼多多",
+			"company": "杭州海康威视数字技术股份有限公司",
+			"show": false
+		}, {
 			"id": 103001,
 			"ctg": 1,
 			"subCtg": 103,
@@ -196,7 +214,7 @@ module.exports = {
 			"name": "体验AI智能生活，移康智能猫眼超级钜惠",
 			"time": "5月16日-6月17日",
 			"addressRich": true,
-			"address": "<p>线上：抖音直播，线下代理商渠道</p><p>线下：闵行区沪闵路4200号A栋</p>",
+			"address": "<p>线上抖音直播，线下代理商渠道</p><p>线下地址：闵行区沪闵路4200号A栋</p>",
 			"company": "移康智能",
 			"show": false
 		}, {
@@ -220,6 +238,6 @@ module.exports = {
 			"company": "上海和颢家网络科技有限公司（和家网）",
 			"show": false
 		}
-		/*103 max 103011*/
+		/*103 max 103013*/
 	]
 }

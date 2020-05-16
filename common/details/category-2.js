@@ -89,7 +89,7 @@ module.exports = {
 			"subCtg": 201,
 			"name": "信息消费节大促，任享百万补贴",
 			"time": "5月17日-6月19日",
-			"address": "线上渠道：启信宝、名片全能王App端",
+			"address": "启信宝、名片全能王App端",
 			"company": "合合信息",
 			"show": false
 		}, {
