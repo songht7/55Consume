@@ -155,7 +155,7 @@
 				})
 				var wxSet = {
 					title: "上海信息消费节",
-					desc: "活动于2020年5月17日-6月17日举办，以“数字赋能消费新时代”为主题",
+					desc: "数字赋能消费新时代",
 					link: 'http://consume.bdmartech.com/',
 					imgUrl: 'http://consume.bdmartech.com/static/page-index.jpg',
 					success: function() {}
