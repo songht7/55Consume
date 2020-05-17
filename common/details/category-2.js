@@ -146,8 +146,8 @@ module.exports = {
 			"subCtg": 202,
 			"name": "上海信息消费节",
 			"time": "5月17日",
-			"address": "线上	",
-			"company": "徐汇区中心医院贯众互联网医院",
+			"address": "徐汇区中心医院贯众互联网医院",
+			"company": "徐汇区中心医院",
 			"show": false
 		}, {
 			"id": 2020004,
