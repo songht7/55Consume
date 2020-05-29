@@ -28,6 +28,16 @@ module.exports = {
 			"company": "上海掌小门教育科技有限公司（掌门教育）",
 			"show": false
 		}, {
+			"id": 301022,
+			"ctg": 3,
+			"subCtg": 301,
+			"name": "学掌门Atstudy就业帮扶计划",
+			"time": "5月18日-6月31日",
+			"addressRich": true,
+			"address": "学掌门官网<a href='http://www.atstudy.com' target='_blank'>www.atstudy.com</a>，微信公众号，抖音等各大平台。",
+			"company": "上海博为峰软件技术股份有限公司",
+			"show": false
+		}, {
 			"id": 301004,
 			"ctg": 3,
 			"subCtg": 301,
@@ -194,7 +204,7 @@ module.exports = {
 			"company": "上海市软件行业协会",
 			"show": false
 		}
-		/*301 id max 301021*/
+		/*301 id max 301022*/
 		, {
 			"id": 302001,
 			"ctg": 3,
